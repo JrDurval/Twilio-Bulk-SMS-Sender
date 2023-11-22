@@ -4,7 +4,7 @@ from twilio.rest import Client
 MESSAGE_FILE = 'message.txt'     # File containing text message
 CSV_FILE = 'participants.csv'    # File containing participant numbers
 SMS_LENGTH = 160                 # Max length of one SMS message
-MSG_COST = 0.057                 # Cost per message
+MSG_COST = 0.000                # Cost per message
 
 account_sid = ""
 auth_token = ""
